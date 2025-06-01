@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-color: #b7ac66;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+.col-6 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.form-box {
+  background-color: #f8f6f1;
+  padding: 30px;
+  min-height: 500px; /* Makes the form box longer */
+}
+.form-box h2 {
+  color: #796900be;
+}
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #796900be;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+textarea {
+  height: 150px; /* Makes the message box taller */
+}
+button {
+  margin-top: 20px;
+  background-color: #796900be;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

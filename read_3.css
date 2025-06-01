@@ -1,0 +1,87 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #b7ac66;
+    color: black;
+    font-size: 20px;
+}
+.hero_container{
+    height: 100%;
+    background: url(Image/tips_solution_read.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+@media only screen and (max-width:768px){
+    .hero_container{
+        height: 100%;
+    }
+    .dark_layer{
+        /* this made the image darker */
+        background-color:rgba(0, 0, 0, 0.596) ;
+        height: 100px;
+    }
+    .hero_text> h2{
+        margin-bottom: 10%;
+        font-size: 15px;
+    }
+    .hero_text> h1{
+        margin-bottom: 3%;
+        font-size: 25px;
+        text-align: center;
+    }
+}
+.hero_text{
+    color: white;
+    padding: 12px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.dark_layer{
+    /* this made the image darker */
+    background-color:rgba(0, 0, 0, 0.596) ;
+    width: 100%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p, li{
+    font-family: Arial, sans-serif;
+}
+.hero_text> h1{
+    font-size: 65px;
+}
+.text_container{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-size: 20px;
+}
+.text_container>ul>li{
+    font: 35px;
+}
+.color1{
+    color: rgb(123, 119, 238);
+}
+.color2{
+    color:rgb(246, 238, 209);
+}
+.color3{
+    color: rgb(142, 44, 94);
+}
+.color4{
+    color: rgb(181, 238, 171);
+}
+.color5{
+    color: rgb(245, 230, 145);
+}
+.color6{
+    color: rgb(233, 201, 232);
+}
+.color7{
+    color: rgb(246, 243, 164);
+}

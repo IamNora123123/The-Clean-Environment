@@ -1,0 +1,77 @@
+.footer{
+    background-color: #796900be;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+a{
+    color: white;
+}
+.logo_title_part>a>img{
+    width: 180px;
+    height: auto;
+    text-align: center;
+}
+.logo_title_part>h4{
+    /* text under the logo in footer*/
+    padding-left: 10px;
+    color: white;
+}
+.link_1{
+    /* link_1 is class for links under quick link catagories */
+    margin-bottom: 2px;
+}
+.quick_link{
+    padding-left: 15px;
+    color: white;
+}
+.resource{
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+}
+.contact{
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+}
+.contact>p{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.yt_logo{
+    width: 35px;
+    height: 27px;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.bi-youtube {
+    font-size: 20px;
+    color:red;
+    margin:0 3px;
+}
+.bi-facebook {
+    font-size: 20px;
+    color:blue;
+    margin:0 3px;
+}
+.bi-instagram {
+    font-size: 20px;
+    color:rgb(255, 0, 136);
+    margin:0 3px;
+}
+.copyright_container{
+    background-color: #1d4447;
+}
+.copyrights{
+    color: white;
+    text-align: center;
+}

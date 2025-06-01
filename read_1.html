@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>What is household waste?</title>
+  <link rel="stylesheet" href="column.css">
+  <link rel="stylesheet" href="nav.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="icon" type="image/x-icon" href="Image/logo.png">
+       <!--Bootstrap Icon CDN link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background-color:  #b7ac66;
+      color: white;
+    }
+    h1, h2, h3, p, ul, li, strong, span {
+      color: white;
+    }
+    .highlight {
+      color: white;
+      font-weight: bold;
+    }
+    .hero_container {
+     position: relative;
+     width: 100%;
+     height: 450px;
+     background: url(Image/bin_read_1.jpg) no-repeat center center;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+    .hero_text hr{
+    width: 100%;
+    margin: 1rem auto 0;
+    border: none;
+    height: 2px;
+    background-color: white;
+    }
+    .dark_layer{
+      background-color:rgba(0, 0, 0, 0.596) ;
+      width: 100%;
+      height: 100%;
+    }
+    .hero_text {
+      padding: 12px 24px;
+      text-align: center;
+     color: white;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     border-radius: 10px;
+     font-weight: bold;
+     
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .text-section {
+      flex-basis: 100%;
+      max-width: 600px;
+      margin: auto;
+    }
+    .image-section {
+      flex-basis: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .image-section img {
+      width: 90%;
+      max-width: 450px;
+      height: auto;
+    }
+    .final-image {
+    text-align: center;
+    margin-top: 40px;
+    }
+
+    .final-image img {
+    width: 95%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+   }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    @media (min-width: 768px) {
+      .text-section, .image-section {
+        flex-basis: 50%;
+      }
+    }
+    .hero_text> h1{
+    font-size: 65px;
+    }
+  </style>
+</head>
+<body>
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="bi bi-list"></i></label>
+        <a href="#" class="logo"><img src="Image/logo.png" alt="logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="read.html" class="active-state">Awareness tips</a></li>
+            <li><a href="contact.html" class="right_cata">Contact</a></li>
+            <li><a href="sign_in.html" class="right_cata">Sign in</a></li>
+        </ul>
+    </nav>
+  <div class="hero_container">
+    <div class="dark_layer">
+      <div class="hero_text">
+      <h1>What is Household Waste?</h1>
+      <hr>
+    </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="text-section">
+      <h3>Household waste is the waste that is generated from everyday activities in homes, such as cooking, cleaning, and other routine tasks.</h3>
+      <h3>Household waste can be divided into several categories based on its composition and disposal needs. Understanding these types is essential for handling waste effectively and promoting recycling and safe disposal.</h3>
+      <h3><strong>Household waste categories:</strong></h3>
+      <ul>
+        <li><strong>Organic Waste</strong></li>
+        <li><strong>Recyclable Waste</strong></li>
+        <li><strong>Hazardous Waste</strong></li>
+        <li><strong>Solid Waste</strong></li>
+        <li><strong>Liquid Waste</strong></li>
+      </ul>
+    </div>
+    <div class="image-section">
+      <img src="Image/bin_with_trash.jpeg" alt="Household waste image" />
+    </div>
+  </div>
+
+  <h2>1. Organic Waste</h2>
+  <p>Organic waste includes food scraps, garden trimmings, and other biodegradable materials that decompose naturally over time.</p>
+  <p>How you can manage:</p>
+  <ul>
+    <li><span class="highlight">Composting:</span> Set up a compost bin for biodegradable waste, which can be used to fertilize your gardens and reduce landfill contributions.</li>
+    <li><span class="highlight">Green Bins:</span> Many communities offer green waste collection bins for organic materials, which are composted at municipal facilities.</li>
+  </ul>
+
+  <h2>2. Recyclable Waste</h2>
+  <p>Recyclable waste is material that can be made into new products. Recycling reduces the need for raw materials, saves energy, and minimizes waste in landfills.</p>
+  <p>How you can manage:</p>
+  <ul>
+    <li><span class="highlight">Make Recycling Bins:</span> Use different recycling bins for each type of material to make sure that they reach the appropriate recycling centers.</li>
+    <li><span class="highlight">Drop-Off Centers:</span> If street recycling isn’t available, many communities have drop-off centers for paper, metal, glass, and plastic waste.</li>
+  </ul>
+
+  <h2>3. Hazardous Waste</h2>
+  <p>Household hazardous waste includes items that can pose significant health and environmental risks if not handled properly. These items are toxic, flammable, corrosive, etc. Examples include batteries, paint, and household cleaners.</p>
+  <p>How you can manage:</p>
+  <ul>
+    <li><span class="highlight">Designated Disposal Sites:</span> Check with local waste agencies for HHW (Household Hazardous Waste) drop-off sites.</li>
+    <li><span class="highlight">Safety Tips:</span> Never throw away hazardous waste by pouring it down the drain or placing it with regular trash, as it can contaminate water supplies and harm sanitation workers.</li>
+  </ul>
+
+  <h2>4. Solid Waste</h2>
+  <p>Solid waste includes non-recyclable materials that don’t decompose easily. These items end up in landfills and can take years to break down, adding to environmental strain.</p>
+  <p>How you can manage:</p>
+  <ul>
+    <li><span class="highlight">Reduce and Reuse:</span> Avoid single-use items and choose sustainable alternatives whenever possible.</li>
+  </ul>
+
+  <h2>5. Liquid Waste</h2>
+  <p>Liquid waste from households, including leftover cleaning products and other liquid materials, can contain harmful chemicals that pollute water supplies if improperly handled.</p>
+  <p>How you can manage:</p>
+  <ul>
+    <li><span class="highlight">Waste Removal Services:</span> Many communities have guidelines for liquid waste disposal, such as using designated disposal sites.</li>
+  </ul>
+  <div class="final-image">
+    <img src="Image/people_sorting_trash.jpg" alt="People sorting recyclable waste">
+  </div>
+      <footer>
+        <div class="row footer">
+            <div class="col-3 col-s-6 logo_title_part">
+                <a href=""><img src="Image/logo.png" alt="logo"></a>
+                <h4>The Clean Environment</h4>
+            </div>
+            <div class="col-3 col-s-6  quick_link">
+                <h2>Quick Link</h2>
+                <a href="index.html"><p class="link_1">Home</p></a>
+                <a href="about.html"><p class="link_1">About</p></a>
+                <a href="contact.html"><p class="link_1">Contect us</p></a>
+                <a href="sign_in.html"><p class="link_1">Sign in</p></a>
+            </div>
+            <div class="col-3 col-s-6  resource">
+                <h2>Resource</h2>
+                <a href="reference.html"><p class="link_1">Refrences</p></a>
+            </div>
+           
+            <div class="col-3 col-s-6  contact">
+                <h2>Contact</h2>
+                <p>theclean_environment@gmail.com</p>
+                <p>+959 1234567890</p>
+                <p>+959 0987654321</p>
+                <a href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.facebook.com"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+        <div class="col-12 copyright_container">
+            <p class="copyrights">© copyright 2025 The clean Environment. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
